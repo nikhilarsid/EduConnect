@@ -1,42 +1,26 @@
-EdTech Backend App
-Features:
-  User Authentication: Secure login and signup with JWT.
-  Course Management: Create, update, delete, and fetch courses.
-  Section and Subsection Management: Add, update, and remove sections and subsections within courses.
-  OTP Verification: Verify user signups with OTP sent via email.
-  File Uploads: Handle file uploads with Cloudinary.
-  Profile Management: Manage user profiles including fetching and updating user details.
-  Error Handling: Centralized error handling middleware.
 
-Technologies Used:
-  Node.js: JavaScript runtime environment.
-  Express.js: Web framework for Node.js.
-  MongoDB: NoSQL database.
-  Mongoose: MongoDB object modeling for Node.js.
-  JWT: JSON Web Token for authentication.
-  Bcrypt: Password hashing.
-  Nodemailer: Sending emails for OTP verification.
-  Cloudinary: Image and video upload management.
-  dotenv: Environment variables management.
-  Express-fileupload: File upload middleware for Express.
+![Screenshot 2024-07-06 192437](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/87f40529-a6ad-470f-8229-1f0dec446d5d)
+![Screenshot 2024-07-06 192943](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/df581f09-4f4f-4e33-adcc-264bac2ccd03)
+![Screenshot 2024-07-06 193231](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/87741897-a383-4560-8aaa-080a0291b145)
+![Screenshot 2024-07-06 193321](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/a0f850e6-5515-47f4-963d-e42673f60bd4)
+![Screenshot 2024-07-06 193403](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/db6c580a-f01b-498c-9cb6-18af7f70d4f4)
+![Screenshot 2024-07-06 193611](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/0f7194eb-b8c1-4bf7-beeb-c09df4aac5e2)
+![Screenshot 2024-07-06 193646](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/6bb54a48-d498-4cb4-ae16-232cce0a9cc7)
+![Screenshot 2024-07-06 193707](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/a06fd422-08cb-4131-9dc1-cb0fab852775)
+![Screenshot 2024-07-06 193739](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/251e79de-31ee-49b3-933e-9ad15b1772cb)
+![Screenshot 2024-07-06 193756](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/2f382969-82f6-49c5-a9db-99ba24634e65)
+![Screenshot 2024-07-06 193820](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/56573cbe-4316-426e-ac04-2d7bae3ce577)
+![Screenshot 2024-07-06 193838](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/2aa0fe75-fc69-4f0e-bfea-2086eb56bbea)
+![Screenshot 2024-07-06 193859](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/40c815c8-8155-4cbc-ab3e-e8ec45b720dd)
+![Screenshot 2024-07-06 193954](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/77c902c2-9990-4f44-a75a-9a06697fe1a1)
+![Screenshot 2024-07-06 194012](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/e7b89663-4be5-4cc6-a6fe-5015d86c67cf)
+![Screenshot 2024-07-06 194051](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/3b786619-67a3-486d-a8e7-2a3f9195a202)
+![Screenshot 2024-07-06 194130](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/60839445-a4a2-4987-a952-be8d09b591c0)
+![Screenshot 2024-07-06 194206](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/00cf413d-f0a8-4d6f-9666-747ae9524f0a)
+![Screenshot 2024-07-06 194230](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/0644caed-a876-4451-8cb4-7253172a09af)
+![Screenshot 2024-07-06 194325](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/cbe137c4-389c-4a62-b7b3-1a5f16cde4ff)
+![Screenshot 2024-07-06 194354](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/afff5ffc-d352-4d9d-996f-3676df03bd05)
+![Screenshot 2024-07-06 194416](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/38568050-720a-4d9b-8f99-32387a6f0416)
+![Screenshot 2024-07-06 194457](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/9677436e-23ac-4c56-af07-9ceb77e79158)
+![Screenshot 2024-07-06 194518](https://github.com/nikhilarsid/edtech-backend-app/assets/128669883/ce23b0d1-044f-44c3-99d5-7d9c62b9828c)
 
-Setup and Installation:
-  git clone https://github.com/nikhilarsid/edtech-backend-app.git
-  cd edtech-backend-app
-  npm install
-
-Api Endpoints:
-  POST /api/user/signup - User signup
-  POST /api/user/login - User login
-  POST /api/course - Create a course
-  PUT /api/course/:id - Update a course
-  DELETE /api/course/:id - Delete a course
-  GET /api/course - Fetch all courses
-  POST /api/section - Create a section
-  PUT /api/section/:id - Update a section
-  DELETE /api/section/:id - Delete a section
-  POST /api/subsection - Create a subsection
-  PUT /api/subsection/:id - Update a subsection
-  DELETE /api/subsection/:id - Delete a subsection
-  GET /api/profile - Fetch user profile
-  PUT /api/profile - Update user profile
